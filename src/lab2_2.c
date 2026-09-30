@@ -24,5 +24,15 @@ int main(void) {
 
     // TODO: validate input, call function, print result
 
+<<<<<<< HEAD
     return 0;
+=======
+  if (n < 0) {
+    printf("Error: n cannot be negative.\n");
+  } else {
+    printf("%d! = %lld\n", n, factorial(n));
+  }
+
+  return 0;
+>>>>>>> 03cbb44 (completed task 2)
 }
